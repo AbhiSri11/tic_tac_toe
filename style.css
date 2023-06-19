@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(26, 30, 39);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#header-text{
+    color: white;
+}
+#resetBtn{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
